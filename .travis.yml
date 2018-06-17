@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: GQ+5i7a6PXUEmTcAANBj+r+FTt5VJaaBxDzxSXr6Lq7JIDLwcq9qt/oOhRF76MetCuL5L9oYxhHCBnqE1G4niJApOHCX8Z/7+czn9W6jE5t0cNDPhFla4SRZOpFu+PUFkGScb54nrdNRg5p1Zd7q1oPVLTDH9hOcTXR/GOuRJVq76NANYcjWjAwEoPuVEThNwMDcqobP/rDvrgGqlqMIqIi947a1Gw3wD4QfSdRtqI0pOn8r1czDADhdSZza8O4hUzqRMyn9leIOYNif0BcbqQmcavZ8KpA5gLJ0OYqtI/hfXlgrxZeyvfIaxLB4WTnIxTghOo/o4+XkG1+/QBqL5TfEwYbwGmyJaW/Q4HXw6oUFCIeW4g4A1DT+Fl45e/DAt8s+NTsxwh+6Rkytgymg4lXqR0NwQ4CyekNoi6T3vM1yE+oJ0m/6S+Dl1DI9kiQCG2Wxf0emIPhE42kV6zWFFY62QMYOsrWOgUYsvvrf14r1FtyE/BiQeXpbXdnQ4wTW21a0y9nQtbL7IiHNDW3ZiJioDn/4QKod4+ySCwhqp9x9mM6ujlBHMJaREVx8kkWhyIZK5O9MLpnScWl7BC5hFRO87iyppD6zhZgBaiPiVykJMxARJDbGAQoLXRXnB2G2xAHC+HcXEYZ1Uaq7XUnKEqCedrAUvS42qLpxtJa2E4w=
+  app: safe-bastion-28528
+  on:
+    repo: BrotherFatcake/blogapi-tests-CI
